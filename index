@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus Media - Producción Audiovisual y Fotografía</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🎥 Focus Media</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>Transformamos ideas en imagen</h1>
+    <p>Producción audiovisual y fotografía profesional para marcas, eventos y proyectos creativos.</p>
+    <a href="#contacto" class="btn">Solicita una cotización</a>
+  </section>
+
+  <section id="servicios" class="seccion">
+    <h2>Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        <h3>Producción Audiovisual</h3>
+        <p>Videos corporativos, comerciales, eventos y contenido para redes.</p>
+      </div>
+      <div class="servicio">
+        <h3>Fotografía Profesional</h3>
+        <p>Retratos, productos, eventos, moda y sesiones personalizadas.</p>
+      </div>
+      <div class="servicio">
+        <h3>Edición & Postproducción</h3>
+        <p>Montaje de video, corrección de color, efectos especiales y sonido.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio" class="seccion">
+    <h2>Portafolio</h2>
+    <div class="galeria">
+      <!-- Aquí puedes insertar imágenes o videos -->
+      <img src="img/proyecto1.jpg" alt="Proyecto 1" />
+      <img src="img/proyecto2.jpg" alt="Proyecto 2" />
+      <img src="img/proyecto3.jpg" alt="Proyecto 3" />
+    </div>
+  </section>
+
+  <section id="nosotros" class="seccion">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un equipo de creadores visuales apasionados por contar historias a través de la imagen. Combinamos técnica, creatividad y experiencia para ofrecer un producto final que comunique con impacto.</p>
+  </section>
+
+  <section id="contacto" class="seccion contacto">
+    <h2>Contacto</h2>
+    <form action="mailto:tuemail@ejemplo.com" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="mensaje" placeholder="Cuéntanos tu proyecto..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Focus Media. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
